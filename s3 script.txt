@@ -1,0 +1,15 @@
+
+S3 SCRIPT...............
+......................
+
+
+
+resource "aws_s3_bucket" "abc" {
+bucket = "bucketname"
+}
+resource "aws_vpc" "one" {
+  cidr_block = "10.0.0.0/24"
+  tags = {
+    Name = "vpc"
+  }
+}
