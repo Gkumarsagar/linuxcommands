@@ -249,7 +249,7 @@ services:
 
 :wq
 
-# docker-compose up -d
+# docker compose up -d
 
 To see the list of the containers
 # docker container ls
