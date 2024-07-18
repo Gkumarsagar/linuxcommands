@@ -63,6 +63,7 @@ To check whether containers can communicate with each other or not
 Lest create busybox container, as it containes ping utility.
 
 # docker run -d  --name tester1  busybox:1.28 
+# docker run -d -it busybox 
 
 # docker ps  ( we can see 3 container running )
 
